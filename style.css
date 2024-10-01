@@ -1,0 +1,44 @@
+body {
+  background-color: black;
+  color: white;
+}
+.teams {
+  display: flex;
+}
+.team-a {
+  padding-left: 25%;
+  text-align: center;
+}
+.team-b {
+  padding-left: 22%;
+  text-align: center;
+}
+.sec {
+  display: flex;
+}
+.plus {
+  margin-left: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+  border: solid blue;
+  border-radius: 50%;
+  padding: 5px;
+  background-color: blue;
+}
+.minus {
+  margin-right: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+  border: solid red;
+  border-radius: 50%;
+  padding: 5px;
+  background-color: red;
+}
+.button {
+  font-size: 60px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  border: solid white;
+  border-radius: 20%;
+}
